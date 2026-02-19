@@ -22,7 +22,7 @@ public class LatihanProduk {
         System.out.println("---");
         System.out.println("Total Nilai Stok: Rp " + hargaSatuan * stok);
 
-        double hasilPajak = (hargaSatuan * stok) * PAJAK;
+        int hasilPajak = (int) ((hargaSatuan * stok) * PAJAK);
         System.out.println("Pajak (11%)     : Rp " + hasilPajak);
     }
 }
